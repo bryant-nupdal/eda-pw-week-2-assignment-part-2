@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// isStudent is equal to true, age equals 34, and zip equals 55407
-// the compound conditional is true so the first if statement console reading is the result- "You're a student on the West Coast!"
-// following else statements are ignored
-//
+// isStudent is set to true, age set 34, and zip is set to 55407
+// the first compound conditional in the if statement is false because 55407 is not greater than 80000.
+// the first else if statement is also false because neither statements are true.
+//the third statement is true, so the console log "Welcome to Prime!" would be the output.
 
 //CODE
 /*
@@ -140,6 +140,7 @@ if (mix === true) {
 */
 // Fix - colorOne = 'blue'
 // Fix - colorTwo = 'red'
+// Fix = since mix is equal to true, both colorOne and colorTwo are now equal to purple.
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4
@@ -154,10 +155,12 @@ if (temp > 39 || time >= 4) {
 }
 */
 
-// Fix - if (temp > 39 && time >= 4) {
+// Fix - let time = 4;
+//       if (temp > 39 && time >= 4) {
 //          console.log('throw away the food!')
 //}
-// ( change above was || to && because it says and instead of or)
+// ( change above to change 4 from a constant to a varible because time will change and
+//   changing the sign || to && because it says and instead of or)
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
